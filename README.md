@@ -4,7 +4,7 @@
 This repository contains a sample model for Task 2 of the [RARE-X: A Rare Disease Open Science Data Challenge](https://www.synapse.org/rarex).
 
 ## Model Description
-This model is the containerized version of the [provided notebook](https://www.synapse.org/#!Synapse:syn51942435). The model follows the TPOT pipeline:
+This model is the containerized version of the [provided Jupyter notebook](https://www.synapse.org/#!Synapse:syn51942435). The model follows the TPOT pipeline:
 
 1. add/remove features
 2. impute missing values
@@ -32,7 +32,7 @@ This model is the containerized version of the [provided notebook](https://www.s
    * `v1`: version of your model
    * `.`: filepath to the Dockerfile
 
-   > **Note**: our submission system uses the x86-64 cpu architecture.  If your machine uses a different architecture, e.g. Apple Silicon, you will need to additionally include `--platform linux/amd64` into the command.  
+   > **Note**: the Synapse submission system uses the x86-64 cpu architecture.  If your machine uses a different architecture, e.g. Apple Silicon, you will need to additionally include `--platform linux/amd64` into the command.  
 
 4. (optional but recommended) Locally run the model to ensure it can run successfully. For this, you may use [dummy_task2](https://www.synapse.org/#!Synapse:syn51614785) and [dummy_task2_test](https://www.synapse.org/#!Synapse:syn51974898) as the mounts for `/input` and `/test`, respectively. E.g.
 
