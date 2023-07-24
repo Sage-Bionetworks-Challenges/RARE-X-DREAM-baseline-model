@@ -52,8 +52,8 @@ For more information on how to submit, refer to the [Submission Tutorial](https:
 ## Credit
 **Author**:
 
-Jake Albrecht (@chepyle)
+Jake Albrecht ([@chepyle](https://github.com/chepyle))
 
 **Contributors**:
-* Maria Diaz (@mdsage1)
-* Verena Chung (@vpchung)
+* Maria Diaz ([@mdsage1](https://github.com/mdsage1))
+* Verena Chung ([@vpchung](https://github.com/vpchung))
